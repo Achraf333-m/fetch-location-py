@@ -2,7 +2,7 @@ import urllib.request as req, urllib.parse as parse, urllib.error as err
 import xml.etree.ElementTree as ET
 import ssl
 
-api_key = '##########'
+api_key = False
 
 if api_key is False:
     api_key = 42
